@@ -19,14 +19,14 @@ The best practice in the C# world is to structure projects like the repo we just
 ```
 MyApp
 ├── src
-    ├── MyApp.Console
+    ├── MyApp.ConsoleRunner
         └── files...
     ├── MyApp.Core
         └── files...
     └── MyApp.Web
         └── files...
 ├── tests
-    ├── MyApp.Console.Tests
+    ├── MyApp.ConsoleRunner.Tests
         └── files...
     └── MyApp.Web.Tests
         └── files...
@@ -94,14 +94,14 @@ Let's check out again our repo:
 ```
 MyApp
 ├── src
-    ├── MyApp.Console
+    ├── MyApp.ConsoleRunner
         └── files...
     ├── MyApp.Core
         └── files...
     └── MyApp.Web
         └── files...
 ├── tests
-    ├── MyApp.Console.Tests
+    ├── MyApp.ConsoleRunner.Tests
         └── files...
     └── MyApp.Web.Tests
         └── files...
