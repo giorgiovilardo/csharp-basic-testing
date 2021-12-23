@@ -8,6 +8,8 @@ Get your version [here](https://get.dot.net)!
 
 We're going to use .NET 6.0.101 with C# 10.0 and its new syntax: if you want to follow the guide with code, `git clone git@github.com:giorgiovilardo/csharp-basic-testing.git`.
 
+If you want to see the complete version, just checkout the `done-tutorial` branch.
+
 ## A necessary eagle-eye view of `csproj` and `sln` files
 
 ### A small preamble about directory structure
