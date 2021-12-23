@@ -150,7 +150,7 @@ The directory will contain a placeholder test file and the new `MyApp.Core.Tests
 </Project>
 ```
 
-Minor details might be different if you use .NET 6 as this has been generated under .NET 5.
+Minor details might be different if you use .NET 5 as this has been generated under .NET 6.
 
 ### Add the reference
 
@@ -289,7 +289,7 @@ public void SubtractsCorrectly(int firstNumber, int secondNumber, int expectedRe
 
 We added a wrong result just to see the test runner fail, so run `dotnet test`, see it fail, fix the wrong `InlineData`.
 
-A cool way to pass `InlineData` is via a static property of the class, instead of having to specify all the cases in the annotations. The properties must return `IEnumerable<object[]>`.
+A cool way to pass `InlineData` is via a static property of the class, instead of having to specify all the cases in the annotations. The properties must return `IEnumerable<object[]>`. `IEnumerable<T>` is a C# interface that defines how to iterate over collections of type `T`.
 
 Let's use this method to test `Multiply`; let's write the data-generating property:
 
